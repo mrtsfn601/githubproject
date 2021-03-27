@@ -15,7 +15,7 @@ public class MainPage extends BasePage {
     @FindBy() // TODO Akif M
     public WebElement orderNowButton;
 
-    // Ride
+    // Ride 1234567
 
     @FindBy() // TODO Nurlan N
     public WebElement rideTab;
