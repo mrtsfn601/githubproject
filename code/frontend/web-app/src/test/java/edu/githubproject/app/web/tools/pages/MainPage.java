@@ -9,7 +9,7 @@ public class MainPage extends BasePage {
 
     // Eat
 
-    @FindBy() // TODO Aigerim B
+    @FindBy(xpath = "//img[@alt = 'Restaurant location']") // TODO Aigerim B
     public WebElement eatTab;
 
     @FindBy() // TODO Akif M
