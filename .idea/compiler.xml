@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="driver-svc" />
-        <module name="web-app" />
         <module name="map-svc" />
         <module name="notification-svc" />
         <module name="audit-app" />
         <module name="payment-svc" />
-        <module name="common" />
         <module name="driver-app" />
-        <module name="rider-svc" />
-        <module name="rider-app" />
         <module name="access-svc" />
         <module name="tracking-svc" />
+        <module name="web-app" />
+        <module name="common" />
+        <module name="rider-svc" />
+        <module name="rider-app" />
+        <module name="passenger-svc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

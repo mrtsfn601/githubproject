@@ -31,7 +31,7 @@ public class MainPage extends BasePage {
 
     // Earn
 
-    @FindBy() // TODO Akmaral S
+    @FindBy(xpath = "//span[contains(text(),'Earn')]") // TODO Akmaral S
     public WebElement earnTab;
 
     @FindBy() // TODO Safiie
