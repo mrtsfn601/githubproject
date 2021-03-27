@@ -50,7 +50,7 @@ public class MainPage extends BasePage {
     @FindBy() // TODO Altynay
     public WebElement businessTab;
 
-    @FindBy() // TODO Timur Y
+    @FindBy(xpath = "//a[text()='See how']") // TODO Timur Y
     public WebElement businessLearnMoreButton;
 
     // Transit
