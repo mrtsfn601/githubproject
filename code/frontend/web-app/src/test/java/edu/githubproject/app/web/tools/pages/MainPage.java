@@ -66,7 +66,8 @@ public class MainPage extends BasePage {
     @FindBy() // TODO Andrew A
     public WebElement bikeScootTab;
 
-    @FindBy() // TODO Jane R
+    // TODO Jane R
+    @FindBy(xpath = "//span[@class='bm l0 ds bo bu c4 bv ef l1 l2 l3' and text()='Ride']")
     public WebElement getRideButton;
 
     public MainPage() {

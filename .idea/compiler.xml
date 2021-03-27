@@ -10,6 +10,7 @@
         <module name="web-app" />
         <module name="map-svc" />
         <module name="notification-svc" />
+        <module name="audit-app" />
         <module name="payment-svc" />
         <module name="common" />
         <module name="driver-app" />
