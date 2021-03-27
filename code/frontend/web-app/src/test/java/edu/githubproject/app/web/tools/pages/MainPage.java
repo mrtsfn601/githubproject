@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MainPage extends BasePage {
 
-    // I can do some changes)
+    // I did some changes)
 
     @FindBy(xpath = "//img[@alt = 'Restaurant location']") // TODO Aigerim B
     public WebElement eatTab;
