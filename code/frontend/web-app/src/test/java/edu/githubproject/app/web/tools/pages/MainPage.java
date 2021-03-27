@@ -20,7 +20,7 @@ public class MainPage extends BasePage {
     @FindBy() // TODO Nurlan N
     public WebElement rideTab;
 
-    @FindBy() // TODO Petro Z
+    @FindBy(xpath = "//div[contains(@class,'tm tn to')]") // TODO Petro Z
     public WebElement pickupLocationInput;
 
     @FindBy() // TODO Roma
