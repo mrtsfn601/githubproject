@@ -122,7 +122,7 @@ public class MainPage extends BasePage {
     }
 
     public WebElement getTransitTab() {
-        return transitTab;
+        return languageButton;
     }
 
     public WebElement getTransitLearnMoreButton() {
