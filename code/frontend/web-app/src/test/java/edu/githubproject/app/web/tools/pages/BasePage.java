@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
 
-    @FindBy(id = "logo") // TODO Assel K
+    @FindBy(xpath = "//a[@aria-label='Go to Uber.com']") // TODO Assel K
     public WebElement logo;
 
     // Login
