@@ -37,7 +37,7 @@ public class BasePage {
     @FindBy() // TODO Maksym F
     public WebElement safetyButton;
 
-    @FindBy() // TODO Malika M
+    @FindBy(xpath = "//a[@aria-label='Get help']") // TODO Malika M
     public WebElement helpButton;
 
     @FindBy() // TODO Mariya S
