@@ -16,7 +16,6 @@
         <module name="tracking-svc" />
         <module name="web-app" />
         <module name="common" />
-        <module name="rider-svc" />
         <module name="rider-app" />
         <module name="passenger-svc" />
       </profile>
