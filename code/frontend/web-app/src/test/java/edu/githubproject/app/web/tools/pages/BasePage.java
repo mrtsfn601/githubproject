@@ -15,7 +15,7 @@ public class BasePage {
     @FindBy() // TODO Bulat S
     public WebElement loginButton;
 
-    @FindBy() // TODO Dana I
+    @FindBy(xpath = "//h2[text()='Driver login']") // TODO Dana I
     public WebElement driverLoginButton;
 
     @FindBy(xpath = "//span[text()='Ride']") // TODO Daniel K
