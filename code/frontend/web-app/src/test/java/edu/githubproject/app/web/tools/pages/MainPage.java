@@ -58,7 +58,8 @@ public class MainPage extends BasePage {
     @FindBy() // TODO Andrei S
     public WebElement transitTab;
 
-    @FindBy() // TODO Vladimir H
+    //ToDo Vladimir H
+    @FindBy(xpath = "//a[@href='https://www.uber.com/us/en/coronavirus/']")
     public WebElement transitLearnMoreButton;
 
     // Bike and Scoot
