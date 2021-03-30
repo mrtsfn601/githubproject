@@ -23,7 +23,7 @@ public class BasePage {
 
     // Signup
 
-    @FindBy() // TODO Kate Z
+    @FindBy(xpath = "//button[contains(text(),'Sign up')]") // TODO Kate Z
     public WebElement signupButton;
 
     // Changes under Kate`s assignment
