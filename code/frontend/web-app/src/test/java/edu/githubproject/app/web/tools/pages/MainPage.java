@@ -7,7 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MainPage extends BasePage {
 
-    // Eat
+
+
+    // Eat 123 hi
+
+
+
 
     @FindBy(xpath = "//img[@alt = 'Restaurant location']") // TODO Aigerim B
     public WebElement eatTab;
@@ -15,7 +20,9 @@ public class MainPage extends BasePage {
     @FindBy() // TODO Akif M
     public WebElement orderNowButton;
 
-    // Ride it anyway!!
+
+    // Ride Bike and have fun
+
 
     @FindBy() // TODO Nurlan N
     public WebElement rideTab;
