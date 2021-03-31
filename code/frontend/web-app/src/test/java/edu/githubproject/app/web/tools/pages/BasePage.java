@@ -22,11 +22,12 @@ public class BasePage {
     public WebElement riderLoginButton;
 
     // Signup
+    //conflict resolved
 
-    @FindBy() // TODO Kate Z
+    @FindBy(xpath = "//button[contains(text(),'Sign up')]") // TODO Kate Z
     public WebElement signupButton;
 
-    // Menu
+    // Changes under Kate`s assignment
 
     @FindBy() // TODO Elena T
     public WebElement menuButton;
@@ -39,6 +40,7 @@ public class BasePage {
 
     @FindBy(xpath = "//a[@aria-label='Get help']") // TODO Malika M
     public WebElement helpButton;
+
 
     @FindBy() // TODO Mariya S
     public WebElement covid19ResourcesButton;
